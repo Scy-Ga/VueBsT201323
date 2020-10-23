@@ -7,6 +7,12 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "author": "Varga Gábor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Scy-Ga/VueBsT201323"
+  },
   "dependencies": {
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.18.1",
