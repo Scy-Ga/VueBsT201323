@@ -1,5 +1,6 @@
 <template>
   <div id="app"></div>
+  <jobSelect />
 </template>
 
 <script lang="ts">
