@@ -3,8 +3,7 @@
       <div>
       <b-button v-b-modal.modal-1 size="sm">Folymatban lévő munka státusza</b-button>
       
-      <b-modal id="modal-1" title="Munka Státusza" size="lg"> 
-
+      <b-modal id="modal-1" title="Munka Státusza" size="lg" v-slot:modal-footer> 
         <b-container>
           <b-row>
             <b-col><span>Státus:</span></b-col>
@@ -32,12 +31,18 @@
             </b-col>
           </b-row>
         </b-container>
+            <div class="w-100">
+                <b-button variant="success" size="sm" class="float-right m-1" >Mentés</b-button>
+                <b-button variant="primary" size="sm" class="float-right m-1" >Mégsem</b-button>
+            </div>
       </b-modal>
     </div>
+  
   
      
   </div>
 </template>
+
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';

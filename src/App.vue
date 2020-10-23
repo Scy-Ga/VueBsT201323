@@ -1,20 +1,20 @@
 <template>
   <div id="app">
 
-    <jobSelect />
-    
+    <jobSelectModal />
+
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import HelloWorld from "./components/HelloWorld.vue";
-import jobSelect from "./components/jobSelect.vue";
+import jobSelectModal from "./components/jobSelectModal.vue";
 
 @Component({
   components: {
     HelloWorld,
-    jobSelect,
+    jobSelectModal,
   },
 })
 export default class App extends Vue {}
