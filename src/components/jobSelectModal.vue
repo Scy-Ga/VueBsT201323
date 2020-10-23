@@ -32,8 +32,8 @@
           </b-row>
         </b-container>
             <div class="w-100">
-                <b-button variant="success" size="sm" class="float-right m-1" >Mentés</b-button>
-                <b-button variant="primary" size="sm" class="float-right m-1" >Mégsem</b-button>
+                <b-button variant="success" size="sm" class="float-right m-1" @click="ment">Mentés</b-button>
+                <b-button variant="primary" size="sm" class="float-right m-1" @click="ment">Mégsem</b-button>
             </div>
       </b-modal>
     </div>
@@ -50,6 +50,8 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 @Component
 export default class jobSelect extends Vue {
   
+
+
 }
 </script>
 
