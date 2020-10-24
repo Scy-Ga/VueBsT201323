@@ -29,13 +29,11 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import HelloWorld from "./components/HelloWorld.vue";
 import jobSelectModal from "./components/jobSelectModal.vue";
 import jobSelectButton from "./components/jobSelectButton.vue";
 
 @Component({
   components: {
-    HelloWorld,
     jobSelectModal,
     jobSelectButton,
   },
